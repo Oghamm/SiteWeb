@@ -1,0 +1,52 @@
+.App {
+    text-align: center;
+}
+
+.header{
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.start_button {
+    margin-bottom: 10px;
+}
+
+.Alphabet {
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+.letter {
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: pointer;
+    box-sizing: border-box;
+    font: 400 13px Arial;
+    padding: 1px 6px;
+    border-width: 2px;
+    border-style: outset;
+    border-image: initial;
+}
+
+.letter:hover {
+    background-color: grey;
+}
+
+.WordToFind {
+    letter-spacing: 2px;
+    margin-bottom: 10px;
+}

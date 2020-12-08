@@ -1,7 +1,16 @@
-* {
-    margin: 0;
-    padding: 0;
-    user-select: none;
+/* for waiting site building */
+@font-face {
+    font-family: "pumpkin";
+    src: url("../../assets/font/BabyPumpkin.ttf");
+}
+
+.logo {
+    color: #a20021;
+    font-family: pumpkin;
+    float: right;
+    cursor: pointer;
+    margin-right: 10px;
+    margin-top: 10px;
 }
 
 .container__home {
@@ -9,6 +18,7 @@
     background-color: black;
     overflow-x: hidden;
     height: 100%;
+    user-select: none;
 }
 
 h1 {
@@ -38,4 +48,5 @@ p {
     font-weight: bold;
     font-size: 2em;
 }
+
 
