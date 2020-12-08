@@ -11,6 +11,12 @@
     cursor: pointer;
     margin-right: 10px;
     margin-top: 10px;
+    width: 60px;
+    height: 30px;
+}
+
+.presentation {
+    color: #a20021;
 }
 
 .container__home {

@@ -11,6 +11,7 @@ function Home() {
             <h1>
                 Site en construction
             </h1>
+            <div className="presentation">Présentation</div>
             <p><span>&ndash; </span>Bientôt disponible<span> &ndash;</span></p>
             <p className="separator">...</p>
         </div>
