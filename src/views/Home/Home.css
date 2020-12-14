@@ -3,6 +3,19 @@
     font-family: "pumpkin";
     src: url("../../assets/font/BabyPumpkin.ttf");
 }
+@font-face {
+    font-family: "lol";
+    src: url("../../assets/font/FrizQuadrataRegular.ttf");
+}
+
+.container__home {
+    font-family: 'Titillium Web', sans-serif;
+    background-color: #111111;
+    overflow-x: hidden;
+    height: 100%;
+    user-select: none;
+    position: relative;
+}
 
 .logo {
     color: #a20021;
@@ -15,17 +28,86 @@
     height: 30px;
 }
 
+
+.container__pres {
+    position:absolute;
+    height: 80%;
+    width: 100%;
+    bottom: 0;
+    display: flex;
+}
+
 .presentation {
+    display: flex;
+    flex-direction: column;
+    color: #a20021;
+    height: 100%;
+    width: 60%;
+    font-size: 80px;
+}
+
+.first__line {
+    margin-top: 60px;
+    padding-left: 140px;
+}
+.lines {
+    margin-top: 10px;
+    padding-left: 140px;
+}
+
+.right__box {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    font-size: 50px;
+}
+
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40%;
+    background:#d6b46e no-repeat center/100% url("../../assets/about_image.jpg");
+    border-radius:  25% 10%;
+    border: solid #d6b46e;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.about:hover {
+    border: solid #a20021;
+    font-weight: bold;
+}
+
+.project {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    height: 40%;
+    background:#d6b46e no-repeat center/100% url("../../assets/project_image.jpg");
+    border-radius:  10% 25%;
+    border: solid #d6b46e;
+    margin-right: 50px;
+    cursor: pointer;
+}
+
+.project:hover {
+    border: solid #a20021;
+    font-weight: bold;}
+
+.project .text {
     color: #a20021;
 }
 
-.container__home {
-    font-family: 'Titillium Web', sans-serif;
-    background-color: black;
-    overflow-x: hidden;
-    height: 100%;
-    user-select: none;
+.about .text {
+    color: #a20021;
 }
+
+
+
 
 h1 {
     width: 50%;

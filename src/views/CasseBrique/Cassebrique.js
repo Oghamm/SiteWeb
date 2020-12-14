@@ -62,7 +62,7 @@ function Cassebrique() {
 
 
     return (
-        <div className="container">
+        <div className="casse container">
             <div className="container__top" >
                 <Menu/>
                 Mon premier casse-brique en react

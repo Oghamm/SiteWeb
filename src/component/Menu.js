@@ -11,8 +11,8 @@ function Menu () {
                 <span/>
                 <ul id="menu">
                     <a href="/"><li>Home</li></a>
-                    <a href="http://localhost:3000/projects"><li>Project</li></a>
-                    <a href="http://localhost:3000/about"><li>About</li></a>
+                    <a href="/projects"><li>Project</li></a>
+                    <a href="/about"><li>About</li></a>
                     <a href="/"><li>Contact</li></a>
                 </ul>
             </div>
