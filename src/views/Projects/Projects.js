@@ -12,7 +12,7 @@ function Projects() {
             <div className="List_projects">
                 <ul>
                     <Link to="/projects/pendu"><li>Pendu</li></Link>
-                    <Link to="/projects/cassebrique"><li>Case-brique</li></Link>
+                    <Link to="/projects/cassebrique"><li>Casse-brique</li></Link>
                     <Link to="/projects/memory"><li>Memory</li></Link>
                 </ul>
             </div>
