@@ -1,5 +1,6 @@
 import React from "react";
 import "../css/Menu.css";
+import {Link} from "react-router-dom";
 
 function Menu () {
     return(
@@ -10,10 +11,10 @@ function Menu () {
                 <span/>
                 <span/>
                 <ul id="menu">
-                    <a href="/"><li>Home</li></a>
-                    <a href="/projects"><li>Project</li></a>
-                    <a href="/about"><li>About</li></a>
-                    <a href="/"><li>Contact</li></a>
+                    <Link to="/"><li>Home</li></Link>
+                    <Link to="/projects"><li>Project</li></Link>
+                    <Link to="/about"><li>About</li></Link>
+                    <Link to="/"><li>Contact</li></Link>
                 </ul>
             </div>
         </nav>

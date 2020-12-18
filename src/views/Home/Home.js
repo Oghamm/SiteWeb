@@ -20,11 +20,17 @@ function Home() {
                     <div className="lines">situé à Bordeaux</div>
                 </div>
                 <div className="right__box">
-                    <Link to="/about" className="about" >
-                        <div className="text">Apprenez-en plus sur moi</div>
+                    <Link to="/about" className="img__container">
+                        <div className="about"/>
+                        <div className="text">
+                            <div>Apprenez-en plus sur moi</div>
+                        </div>
                     </Link>
-                    <Link to="/projects" className="project" >
-                        <div className="text">Découvrez mes projets et réalisations</div>
+                    <Link to="/projects" className="img__container__project" >
+                        <div className="project"/>
+                        <div className="text">
+                            <div>Découvrez mes projets et réalisations</div>
+                        </div>
                     </Link>
                 </div>
             </div>

@@ -11,9 +11,9 @@ function Projects() {
             <h1>Tous mes projets :</h1>
             <div className="List_projects">
                 <ul>
-                    <a href="http://localhost:3000/projects/pendu"><li>Pendu</li></a>
-                    <a href="http://localhost:3000/projects/cassebrique"><li>Case-brique</li></a>
-                    <a href="http://localhost:3000/projects/memory"><li>Memory</li></a>
+                    <Link to="/projects/pendu"><li>Pendu</li></Link>
+                    <Link to="/projects/cassebrique"><li>Casse-brique</li></Link>
+                    <Link to="/projects/memory"><li>Memory</li></Link>
                 </ul>
             </div>
         </div>
