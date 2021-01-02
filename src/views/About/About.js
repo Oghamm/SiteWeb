@@ -7,7 +7,9 @@ function About() {
     return(
         <div className="container__home">
             <Menu/>
-            <Link to="/" className="logo">OGHAMM</Link>
+            <div className="logo__container">
+                <Link to="/" className="logo">OGHAMM</Link>
+            </div>
             <div className="container__pres">
                 <div className="cv__left">
                     <div className="nom">Teo Laulan</div>
@@ -93,44 +95,48 @@ function About() {
                         <div className="competences">
                             <div className="barre"/>
                             <div className="liste">
-                                <div>
+                                <div className="row">
                                     <div>Anglais</div>
                                     <div>Puce</div>
                                 </div>
-                                <div>
+                                <div className="row">
                                     <div>Espagnol</div>
                                     <div>Puce</div>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div className="langues">
+                    <div className="informatique">
                         <h2>Informatique</h2>
                         <div className="competences">
                             <div className="barre"/>
                             <div className="liste">
-                                <div>
+                                <div className="row">
                                     <div>HTML/CSS</div>
                                     <div>Puce</div>
                                 </div>
-                                <div>
+                                <div className="row">
                                     <div>JAVASCRIPT</div>
                                     <div>Puce</div>
                                 </div>
-                                <div>
+                                <div className="row">
                                     <div>React/redux</div>
                                     <div>Puce</div>
                                 </div>
-                                <div>
+                                <div className="row">
                                     <div>Wordpress</div>
                                     <div>Puce</div>
                                 </div>
-                                <div>
+                                <div className="row">
                                     <div>C/C++</div>
                                     <div>Puce</div>
                                 </div>
-                                <div>
+                                <div className="row">
                                     <div>Python</div>
+                                    <div>Puce</div>
+                                </div>
+                                <div className="row">
+                                    <div>PHP</div>
                                     <div>Puce</div>
                                 </div>
                             </div>

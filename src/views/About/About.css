@@ -1,16 +1,110 @@
+#h2 {
+    text-transform: uppercase;
+}
+
+.row {
+    display: flex;
+    flex-flow: row;
+    margin-bottom: 10px;
+}
+
 .container__home {
     font-family: 'Titillium Web', sans-serif;
-    background-color: black;
+    background-color: #111111;
+    color: #a20021;
     overflow-x: hidden;
     height: 100%;
+    user-select: none;
+    position: relative;
 }
 
-
-.logo {
-    color: #a20021;
-    font-family: pumpkin;
-    float: right;
-    cursor: pointer;
-    margin-right: 10px;
-    margin-top: 10px;
+.container__pres {
+    position:absolute;
+    height: 90%;
+    width: 100%;
+    bottom: 0;
+    display: flex;
 }
+
+.cv__left {
+    height: 100%;
+    width: 75%;
+}
+
+.nom {
+    font-size: 40px;
+    text-align: center;
+}
+
+.titre {
+    font-size: 20px;
+}
+
+.cv__left .container__cv {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: row;
+}
+
+.experiences {
+    height: 100%;
+    width: 50%;
+}
+
+.formations {
+    height: 100%;
+    width: 50%;
+}
+
+.cv__right {
+    height: 100%;
+    width: 25%;
+    font-size: 20px;
+}
+
+.cv__img {
+    height: 30%;
+    width: 50%;
+    background-color: #ededed;
+    border-radius: 100%;
+    margin-right: 30%;
+    margin-left: 15%;
+}
+
+.cv__right .langues {
+    margin-left: 25%;
+    margin-top: 40px;
+}
+
+.cv__right .langues .competences {
+    display: flex;
+    flex-flow: row;
+}
+
+.langues .competences .barre {
+    width: 2px;
+    height: 50px;
+    background-color: #a20021;
+}
+
+.cv__right .informatique {
+    margin-top: 40px;
+    margin-left: 25%;
+}
+
+.cv__right .informatique .competences {
+    display: flex;
+    flex-flow: row;
+}
+
+.informatique .competences .barre {
+    width: 2px;
+    height: 220px;
+    background-color: #a20021;
+}
+
+.liste {
+    margin-left: 10px;
+}
+

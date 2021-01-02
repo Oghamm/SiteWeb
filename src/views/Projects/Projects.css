@@ -33,12 +33,3 @@ li {
 a :hover {
     color: #a20021;
 }
-
-.logo {
-    color: #a20021;
-    font-family: pumpkin;
-    float: right;
-    cursor: pointer;
-    margin-right: 10px;
-    margin-top: 10px;
-}
