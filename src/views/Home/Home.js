@@ -11,7 +11,9 @@ function Home() {
     return(
         <div className="container__home">
             <Menu/>
-            <Link to="/" className="logo">OGHAMM</Link>
+            <div className="logo__container">
+                <Link to="/" className="logo">OGHAMM</Link>
+            </div>
             <div className="container__pres">
                 <div className="presentation">
                     <div className="first__line">Bonjour,</div>
